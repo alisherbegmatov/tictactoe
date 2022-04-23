@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <main>
@@ -16,12 +16,11 @@
             <button id="c0"></button>
             <button id="c1"></button>
             <button id="c2"></button>
-            </div>
-            <div id="messages">Waiting for 2nd player to join...</div>
+        </div>
+        <div id="messages">Waiting for 2nd player to join...</div>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.1/socket.io.js"></script>
     <script  src="https://code.jquery.com/jquery-1.11.1.js"></script>
-    <script src="./js/script.js" defer>
-    </script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./client.js" defer></script>
   </body>
 </html>
